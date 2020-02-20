@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:OCRTest:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/res" />
+      <root url="jar://$PROJECT_DIR$/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/jars/libs/unity-classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

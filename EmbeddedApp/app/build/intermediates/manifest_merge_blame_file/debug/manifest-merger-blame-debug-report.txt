@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.thoughtworks.embeddedunitytest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml
+10
+11    <supports-screens
+11-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:13:5-18:40
+12        android:anyDensity="true"
+12-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:14:9-34
+13        android:largeScreens="true"
+13-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:15:9-36
+14        android:normalScreens="true"
+14-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:16:9-37
+15        android:smallScreens="true"
+15-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:17:9-36
+16        android:xlargeScreens="true" />
+16-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:18:9-37
+17
+18    <uses-feature android:glEsVersion="0x00020000" />
+18-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:20:5-54
+18-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:20:19-51
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:22:5-67
+20-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:22:22-64
+21
+22    <uses-feature
+22-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:24:5-26:36
+23        android:name="android.hardware.touchscreen"
+23-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:25:9-52
+24        android:required="false" />
+24-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:26:9-33
+25    <uses-feature
+25-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:27:5-29:36
+26        android:name="android.hardware.touchscreen.multitouch"
+26-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:28:9-63
+27        android:required="false" />
+27-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:29:9-33
+28    <uses-feature
+28-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:30:5-32:36
+29        android:name="android.hardware.touchscreen.multitouch.distinct"
+29-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:31:9-72
+30        android:required="false" />
+30-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:32:9-33
+31
+32    <application
+32-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:6:5-21:19
+33        android:allowBackup="true"
+33-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:7:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.0.1] /Users/rajukandaswamy/.gradle/caches/transforms-2/files-2.1/8f8ab13dc8f4e84e14a8bb3d9ac92bc4/core-1.0.1/AndroidManifest.xml:22:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:9:9-43
+37        android:label="@string/app_name"
+37-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:10:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:11:9-54
+39        android:supportsRtl="true"
+39-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:12:9-35
+40        android:theme="@style/AppTheme" >
+40-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:13:9-40
+41        <activity android:name="com.thoughtworks.embeddedunitytest.MainActivity" >
+41-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:14:9-20:20
+41-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:14:19-47
+42            <intent-filter>
+42-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:15:13-19:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:16:17-69
+43-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:16:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:18:17-77
+45-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:18:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:38:9-54:20
+49            android:name="com.thoughtworks.datapassspike.UnityPlayerActivity"
+49-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:39:13-78
+50            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+50-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:40:13-194
+51            android:hardwareAccelerated="false"
+51-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:41:13-48
+52            android:label="@string/app_name"
+52-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:42:13-45
+53            android:launchMode="singleTask"
+53-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:43:13-44
+54            android:screenOrientation="fullSensor" >
+54-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:44:13-51
+55            <intent-filter>
+55-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:15:13-19:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:16:17-69
+56-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:16:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:18:17-77
+58-->/Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/app/src/main/AndroidManifest.xml:18:27-74
+59            </intent-filter>
+60
+61            <meta-data
+61-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:51:13-53:40
+62                android:name="unityplayer.UnityActivity"
+62-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:52:17-57
+63                android:value="true" />
+63-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:53:17-37
+64        </activity>
+65
+66        <meta-data
+66-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:56:9-58:68
+67            android:name="unity.build-id"
+67-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:57:13-42
+68            android:value="3b2bb194-84fc-4a2c-8762-8c6cafc444cd" />
+68-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:58:13-65
+69        <meta-data
+69-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:59:9-61:33
+70            android:name="unity.splash-mode"
+70-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:60:13-45
+71            android:value="0" />
+71-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:61:13-30
+72        <meta-data
+72-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:62:9-64:36
+73            android:name="unity.splash-enable"
+73-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:63:13-47
+74            android:value="True" />
+74-->[:OCRTest] /Users/rajukandaswamy/ARVR/EmbeddedUnityLib/EmbeddedApp/OCRTest/build/.transforms/cb0cfd6ae1c0c00ed038c3a502ee84eb/OCRTest/AndroidManifest.xml:64:13-33
+75    </application>
+76
+77</manifest>
